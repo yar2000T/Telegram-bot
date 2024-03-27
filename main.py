@@ -1,7 +1,7 @@
 import random
 import telebot
 from telebot import types
-bot = telebot.TeleBot('7169734819:AAE62OMTmfUuh_IYBOl5LM7EN1U6JsSB0Rc')
+bot = telebot.TeleBot('YOUR_TELEGRAM_TOKEN')
 
 print('Бот було запущенно')
 def is_blocked(message):
