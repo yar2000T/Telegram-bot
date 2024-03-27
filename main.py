@@ -42,7 +42,7 @@ def admin_panel(message):
     file = file.read()
     if str(message.from_user.id) in file:
         bot.send_message(message.chat,f'З поверненням {message.from_user.first_name}!\n'
-                                      'Подивитися відгуки: /comments_view\n'
+                                      'Подивитися відгуки: /comment_view\n'
                                       'Заблокувати когось: /ban ід-користувача')
 
 @bot.message_handler(commands=['comment_view'])
